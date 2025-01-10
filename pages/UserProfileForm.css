@@ -1,0 +1,60 @@
+.user-profile-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-section {
+    margin-bottom: 30px;
+  }
+  
+  .form-section h3 {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+  }
+  
+  .user-profile-form input[type="text"],
+  .user-profile-form input[type="email"],
+  .user-profile-form select,
+  .user-profile-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .user-profile-form textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .user-profile-form label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .user-profile-form input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .submit-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  
